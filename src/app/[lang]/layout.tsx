@@ -34,7 +34,7 @@ export async function generateMetadata({
   const lang = (rawLang === 'fr' ? 'fr' : 'en') as 'en' | 'fr';
   const dict = await getDictionary(lang);
 
-  const baseUrl = 'https://imedbenfatma.com';
+  const baseUrl = 'https://www.imed-ben-fatma.site';
 
   return {
     title: dict.meta.title,
@@ -79,7 +79,7 @@ export default async function RootLayout({ children, params }: LayoutProps) {
   const lang = (rawLang === 'fr' ? 'fr' : 'en') as 'en' | 'fr';
   const dict = await getDictionary(lang);
 
-  const baseUrl = 'https://imedbenfatma.com';
+  const baseUrl = 'https://www.imed-ben-fatma.site';
 
   const jsonLd = {
     '@context': 'https://schema.org',
