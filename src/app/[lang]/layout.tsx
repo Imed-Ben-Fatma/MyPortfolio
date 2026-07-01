@@ -71,6 +71,13 @@ export async function generateMetadata({
       description: dict.meta.description,
       images: [`${baseUrl}/profile.jpg`],
     },
+    icons: {
+      icon: [
+        { url: '/favicon.ico', sizes: 'any' },
+        { url: '/icon.png', type: 'image/png', sizes: '192x192' },
+      ],
+      apple: '/icon.png',
+    },
   };
 }
 
