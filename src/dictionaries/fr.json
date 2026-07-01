@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "title": "Imed Ben Fatma | Ingénieur Logiciel & Développeur Full-Stack",
+    "description": "Portfolio haut de gamme d'Imed Ben Fatma, Ingénieur Logiciel basé en Tunisie. Spécialisé en Spring Boot, Angular, React, Next.js, Flutter et automatisation QA.",
+    "keywords": "Ingénieur Logiciel, Développeur Full Stack, Développeur Mobile, QA Automation, Maintenance du Code, Spring Boot, Angular, Tunisie"
+  },
+  "nav": {
+    "about": "À propos",
+    "services": "Services",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "education": "Formation",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Bonjour, je suis",
+    "name": "Imed Ben Fatma",
+    "title": "Ingénieur Logiciel & Développeur Full-Stack",
+    "subtitle": "Spécialisé en Spring Boot & Écosystèmes Frontend",
+    "description": "Je conçois des applications web performantes et scalables, ainsi que des solutions mobiles cross-platform. Engagé dans le clean code, les tests automatisés robustes et la modernisation de systèmes existants.",
+    "location": "Monastir, Tunisie",
+    "cta_cv": "Télécharger CV",
+    "cta_contact": "Me contacter"
+  },
+  "services": {
+    "title": "Services Premium",
+    "subtitle": "Des solutions d'ingénierie à forte valeur ajoutée, conçues pour évoluer.",
+    "pillars": {
+      "web": {
+        "title": "Développement Web Full-Stack",
+        "description": "Conception et développement d'applications web scalables et hautement performantes avec Spring Boot (Java), Angular, React et Next.js. Conception d'API RESTful robustes sécurisées via Spring Security (JWT)."
+      },
+      "mobile": {
+        "title": "Développement d'Applications Mobiles",
+        "description": "Création d'applications mobiles cross-platform performantes et haute fidélité avec Flutter et Dart pour offrir des expériences mobiles exceptionnelles."
+      },
+      "qa": {
+        "title": "Assurance Qualité Logicielle (QA)",
+        "description": "Mise en place de frameworks de test robustes. Validation d'API automatisée (Postman/Newman) et tests système E2E (Selenium, JUnit, Cucumber BDD) avec le design pattern Page Object Model (POM) intégrés dans les pipelines CI/CD."
+      },
+      "maintenance": {
+        "title": "Maintenance & Conseil Système",
+        "description": "Optimisation des bases de données, conseil architectural, refactoring de code hérité, optimisation de requêtes (réduction des temps de réponse des API jusqu'à 20%), et intégration continue."
+      }
+    }
+  },
+  "experience": {
+    "title": "Expérience Professionnelle",
+    "subtitle": "Un aperçu chronologique de mes rôles, produits déployés et innovations menées.",
+    "roles": {
+      "apeiron_ai": {
+        "role": "Ingénieur Logiciel",
+        "company": "Apeiron AI",
+        "duration": "Août 2025 - Présent",
+        "location": "Sousse, Tunisie",
+        "bullet1": "Développement d'une plateforme de mobilité intelligente centralisant la gestion de flotte automobile via Spring Boot, Angular et Flutter.",
+        "bullet2": "Digitalisation de la chaîne d'approvisionnement pharmaceutique : conception d'un moteur de fidélisation trade-marketing (Backend Java, Next.js, Flutter).",
+        "bullet3": "Innovation Produit : Intégration réussie de modules d'Intelligence Artificielle Générative (LLM) pour l'analyse automatisée de compatibilité CV/Offres."
+      },
+      "apeiron_tech": {
+        "role": "Développeur Full-Stack",
+        "company": "Apeiron Technologies",
+        "duration": "Févr. 2025 - Mai 2025",
+        "location": "Sousse, Tunisie",
+        "bullet1": "Conception d'une infrastructure SaaS sécurisée avec Spring Security et gestion de la couche de persistance via JPA/Hibernate sur des bases de données MySQL.",
+        "bullet2": "Automatisation des workflows de tests unitaires et d'intégration via des pipelines CI/CD Jenkins pour assurer la stabilité du produit."
+      },
+      "terraform": {
+        "role": "Développeur Full-Stack",
+        "company": "Terraform Tunisia",
+        "duration": "Déc. 2024",
+        "location": "Sousse, Tunisie",
+        "bullet1": "Développement d'une application SaaS de gestion éducative/crèche utilisant le stack Spring Boot et React sur une base de données relationnelle PostgreSQL complexe."
+      }
+    }
+  },
+  "projects": {
+    "title": "Projets Clés",
+    "subtitle": "Présentation de projets prêts pour la production, de suites de tests et d'ingénierie des données.",
+    "view_project": "Détails",
+    "items": {
+      "bcar": {
+        "title": "Écosystème de Mobilité Intelligente (B-CAR)",
+        "description": "Une plateforme d'entreprise complète de mobilité intelligente centralisant le suivi des véhicules, la logistique de flotte, la coordination des chauffeurs et la maintenance. Développée avec un backend Spring Boot, un tableau de bord Back-Office réactif sous Angular et une application mobile haute fidélité avec Flutter, propulsée par PostgreSQL et conteneurisée via Docker.",
+        "website_label": "Site Officiel",
+        "playstore_label": "Google Play Store"
+      },
+      "pharma": {
+        "title": "Engagement Gamifié & Logistique B2B (novoPharma MyChallenge / PharmaDéfi)",
+        "description": "Un écosystème B2B unifié comprenant une application mobile Flutter (MyChallenge) gamifiée pour récompenser les ventes et proposer des quiz interactifs, ainsi qu'un portail web Next.js (PharmaDéfi) pour valider les ventes en temps réel, distribuer des bons Pluxee, gérer les stocks géolocalisés et suivre les dates de péremption, propulsé par un backend serverless Firebase.",
+        "website_label": "PharmaDéfi Web",
+        "playstore_label": "Play Store",
+        "appstore_label": "App Store"
+      },
+      "qa": {
+        "title": "Suites de Tests QA Automatisés & Pipelines CI",
+        "description": "Plateforme complète d'assurance qualité intégrant des tests Selenium/Cucumber de bout en bout (E2E), des validations API avec Newman, et des pipelines d'intégration continue Jenkins."
+      },
+      "bi": {
+        "title": "Business Intelligence & Analytics B2C",
+        "description": "Moteur interactif d'analyse de KPIs de 4 pages s'appuyant sur des pipelines ETL personnalisés, une modélisation SQL Server et des dashboards Power BI pour suivre les ventes, la logistique et les clients."
+      }
+    }
+  },
+  "education": {
+    "title": "Formation & Parcours",
+    "subtitle": "Mes diplômes académiques et qualifications en ingénierie.",
+    "items": {
+      "epi": {
+        "degree": "Diplôme National d'Ingénieur en Informatique",
+        "school": "EPI Digital School",
+        "duration": "2022 - 2025",
+        "location": "Sousse, Tunisie"
+      },
+      "iset": {
+        "degree": "Licence en Automatique et Informatique Industrielle",
+        "school": "ISET Kairouan",
+        "duration": "2019 - 2022",
+        "location": "Kairouan, Tunisie"
+      }
+    }
+  },
+  "skills": {
+    "title": "Compétences Techniques",
+    "subtitle": "Mes outils, langages et méthodologies de prédilection.",
+    "categories": {
+      "backend": "Backend & BDD",
+      "frontend": "Frontend & Mobile",
+      "devops": "DevOps & CI/CD",
+      "qa": "QA & Tests"
+    }
+  },
+  "contact": {
+    "title": "Me Contacter",
+    "subtitle": "Collaborons ensemble sur vos projets d'applications ou vos architectures logicielles.",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "form_name": "Nom",
+    "form_email": "Adresse E-mail",
+    "form_message": "Message",
+    "form_submit": "Envoyer le Message",
+    "form_sending": "Envoi en cours...",
+    "form_success": "Merci ! Votre message a été envoyé.",
+    "form_error": "Oups ! Une erreur est survenue. Veuillez réessayer."
+  }
+}
