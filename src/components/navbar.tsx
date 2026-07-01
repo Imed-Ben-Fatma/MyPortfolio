@@ -2,6 +2,7 @@
 
 import * as React from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { Sun, Moon, Menu, X, Globe } from 'lucide-react';
 import { type Dictionary } from '@/dictionaries/get-dictionary';
 import { useTheme } from 'next-themes';
@@ -14,6 +15,7 @@ interface NavbarProps {
 
 export function Navbar({ lang, dict }: NavbarProps) {
   const { theme, setTheme } = useTheme();
+  const pathname = usePathname();
   const [mounted, setMounted] = React.useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
 
@@ -22,12 +24,15 @@ export function Navbar({ lang, dict }: NavbarProps) {
     setMounted(true);
   }, []);
 
+  const isHome = pathname === '/' || pathname === '/en' || pathname === '/fr';
+  const homePrefix = isHome ? '' : (lang === 'en' ? '/' : '/fr');
+
   const navItems = [
-    { label: dict.nav.services, href: '#services' },
-    { label: dict.nav.experience, href: '#experience' },
-    { label: dict.nav.projects, href: '#projects' },
-    { label: dict.nav.education, href: '#education' },
-    { label: dict.nav.contact, href: '#contact' },
+    { label: dict.nav.services, href: `${homePrefix}#services` },
+    { label: dict.nav.experience, href: `${homePrefix}#experience` },
+    { label: dict.nav.projects, href: `${homePrefix}#projects` },
+    { label: dict.nav.education, href: `${homePrefix}#education` },
+    { label: dict.nav.contact, href: `${homePrefix}#contact` },
   ];
 
   const toggleTheme = () => {
