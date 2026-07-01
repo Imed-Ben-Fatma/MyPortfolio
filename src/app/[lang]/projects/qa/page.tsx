@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowLeft, ShieldCheck, CheckCircle2, Layers, Cpu, Terminal, Settings } from 'lucide-react';
@@ -7,6 +8,22 @@ import { ScreenshotGallery } from '@/components/screenshot-gallery';
 interface ProjectPageProps {
   params: Promise<{ lang: string }>;
 }
+
+export async function generateMetadata({ params }: ProjectPageProps): Promise<Metadata> {
+  const { lang: rawLang } = await params;
+  const lang = (rawLang === 'fr' ? 'fr' : 'en') as 'en' | 'fr';
+  const isEn = lang === 'en';
+
+  return {
+    title: isEn 
+      ? 'Automated QA & Testing Suites | Imed Ben Fatma' 
+      : 'Suites de Tests QA Automatisés | Imed Ben Fatma',
+    description: isEn
+      ? 'Detailed overview of automated quality assurance test suites including Selenium, Cucumber, JUnit, Newman, and Jenkins CI integration.'
+      : 'Présentation détaillée des suites de tests d’assurance qualité automatisés comprenant Selenium, Cucumber, JUnit, Newman et l’intégration Jenkins CI.',
+  };
+}
+
 
 export default async function Page({ params }: ProjectPageProps) {
   const { lang: rawLang } = await params;

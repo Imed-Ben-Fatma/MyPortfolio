@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowLeft, Mail, Phone, MapPin, CheckCircle2 } from 'lucide-react';
 import { getDictionary } from '@/dictionaries/get-dictionary';
@@ -6,6 +7,20 @@ import { PrintButton } from '@/components/print-button';
 interface CVPageProps {
   params: Promise<{ lang: string }>;
 }
+
+export async function generateMetadata({ params }: CVPageProps): Promise<Metadata> {
+  const { lang: rawLang } = await params;
+  const lang = (rawLang === 'fr' ? 'fr' : 'en') as 'en' | 'fr';
+  const isEn = lang === 'en';
+
+  return {
+    title: isEn ? 'Online CV | Imed Ben Fatma' : 'CV en Ligne | Imed Ben Fatma',
+    description: isEn 
+      ? 'Professional curriculum vitae of Imed Ben Fatma, Software Engineer specializing in Spring Boot, Angular, React, Next.js, and Flutter.'
+      : 'Curriculum vitae professionnel de Imed Ben Fatma, Ingénieur Logiciel spécialisé en Spring Boot, Angular, React, Next.js et Flutter.',
+  };
+}
+
 
 export default async function Page({ params }: CVPageProps) {
   const { lang: rawLang } = await params;

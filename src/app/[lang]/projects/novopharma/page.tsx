@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowLeft, ExternalLink, Globe, Smartphone, ShieldCheck, Database, Layers, CheckCircle2, Apple } from 'lucide-react';
@@ -7,6 +8,22 @@ import { ScreenshotGallery } from '@/components/screenshot-gallery';
 interface ProjectPageProps {
   params: Promise<{ lang: string }>;
 }
+
+export async function generateMetadata({ params }: ProjectPageProps): Promise<Metadata> {
+  const { lang: rawLang } = await params;
+  const lang = (rawLang === 'fr' ? 'fr' : 'en') as 'en' | 'fr';
+  const isEn = lang === 'en';
+
+  return {
+    title: isEn 
+      ? 'Gamified Logistics & B2B Solutions (novoPharma) | Imed Ben Fatma' 
+      : 'Logistique Gamifiée & Solutions B2B (novoPharma) | Imed Ben Fatma',
+    description: isEn
+      ? 'Detailed overview of the novoPharma project: a unified B2B gamified loyalty engine and logistics portal built on Next.js, Flutter, and Firebase.'
+      : 'Présentation détaillée du projet novoPharma : un moteur de fidélité B2B gamifié et un portail logistique conçus avec Next.js, Flutter et Firebase.',
+  };
+}
+
 
 export default async function Page({ params }: ProjectPageProps) {
   const { lang: rawLang } = await params;

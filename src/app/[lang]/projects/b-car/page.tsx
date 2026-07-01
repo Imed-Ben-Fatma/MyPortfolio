@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowLeft, ExternalLink, Globe, Smartphone, ShieldCheck, Database, Layers } from 'lucide-react';
@@ -7,6 +8,22 @@ import { ScreenshotGallery } from '@/components/screenshot-gallery';
 interface ProjectPageProps {
   params: Promise<{ lang: string }>;
 }
+
+export async function generateMetadata({ params }: ProjectPageProps): Promise<Metadata> {
+  const { lang: rawLang } = await params;
+  const lang = (rawLang === 'fr' ? 'fr' : 'en') as 'en' | 'fr';
+  const isEn = lang === 'en';
+
+  return {
+    title: isEn 
+      ? 'Smart Mobility & Fleet Management (B-CAR) | Imed Ben Fatma' 
+      : 'Mobilité Intelligente & Gestion de Flotte (B-CAR) | Imed Ben Fatma',
+    description: isEn
+      ? 'Detailed overview of the B-CAR project: an enterprise smart mobility & fleet management ecosystem built using Spring Boot, Angular, and Flutter.'
+      : 'Présentation détaillée du projet B-CAR : un écosystème d’entreprise de mobilité intelligente et de gestion de flotte conçu avec Spring Boot, Angular et Flutter.',
+  };
+}
+
 
 export default async function Page({ params }: ProjectPageProps) {
   const { lang: rawLang } = await params;
