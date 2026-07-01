@@ -622,6 +622,136 @@ export default async function Page({ params }: PageProps) {
         </div>
       </section>
 
+      {/* 5.5 FAQ SECTION */}
+      <section id="faq" className="space-y-8 scroll-mt-20">
+        <div className="space-y-2">
+          <h2 className="text-3xl font-bold tracking-tight">{dict.faq.title}</h2>
+          <p className="text-muted-foreground font-light max-w-2xl">{dict.faq.subtitle}</p>
+        </div>
+
+        <div className="max-w-4xl space-y-4">
+          <details className="group rounded-2xl border border-border bg-card p-6 [&_summary::-webkit-details-marker]:hidden">
+            <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-foreground">
+              <h3 className="text-base font-semibold">{dict.faq.q1}</h3>
+              <span className="shrink-0 rounded-full bg-slate-100 p-1.5 text-foreground dark:bg-zinc-800">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-180"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </summary>
+            <p className="mt-4 text-sm font-light leading-relaxed text-muted-foreground">
+              {dict.faq.a1}
+            </p>
+          </details>
+
+          <details className="group rounded-2xl border border-border bg-card p-6 [&_summary::-webkit-details-marker]:hidden">
+            <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-foreground">
+              <h3 className="text-base font-semibold">{dict.faq.q2}</h3>
+              <span className="shrink-0 rounded-full bg-slate-100 p-1.5 text-foreground dark:bg-zinc-800">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-180"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </summary>
+            <p className="mt-4 text-sm font-light leading-relaxed text-muted-foreground">
+              {dict.faq.a2}
+            </p>
+          </details>
+
+          <details className="group rounded-2xl border border-border bg-card p-6 [&_summary::-webkit-details-marker]:hidden">
+            <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-foreground">
+              <h3 className="text-base font-semibold">{dict.faq.q3}</h3>
+              <span className="shrink-0 rounded-full bg-slate-100 p-1.5 text-foreground dark:bg-zinc-800">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-180"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </summary>
+            <p className="mt-4 text-sm font-light leading-relaxed text-muted-foreground">
+              {dict.faq.a3}
+            </p>
+          </details>
+
+          <details className="group rounded-2xl border border-border bg-card p-6 [&_summary::-webkit-details-marker]:hidden">
+            <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-foreground">
+              <h3 className="text-base font-semibold">{dict.faq.q4}</h3>
+              <span className="shrink-0 rounded-full bg-slate-100 p-1.5 text-foreground dark:bg-zinc-800">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-180"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </summary>
+            <p className="mt-4 text-sm font-light leading-relaxed text-muted-foreground">
+              {dict.faq.a4}
+            </p>
+          </details>
+
+          <details className="group rounded-2xl border border-border bg-card p-6 [&_summary::-webkit-details-marker]:hidden">
+            <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-foreground">
+              <h3 className="text-base font-semibold">{dict.faq.q5}</h3>
+              <span className="shrink-0 rounded-full bg-slate-100 p-1.5 text-foreground dark:bg-zinc-800">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-180"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </summary>
+            <p className="mt-4 text-sm font-light leading-relaxed text-muted-foreground">
+              {dict.faq.a5}
+            </p>
+          </details>
+
+          <details className="group rounded-2xl border border-border bg-card p-6 [&_summary::-webkit-details-marker]:hidden">
+            <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-foreground">
+              <h3 className="text-base font-semibold">{dict.faq.q6}</h3>
+              <span className="shrink-0 rounded-full bg-slate-100 p-1.5 text-foreground dark:bg-zinc-800">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-180"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </summary>
+            <p className="mt-4 text-sm font-light leading-relaxed text-muted-foreground">
+              {dict.faq.a6}
+            </p>
+          </details>
+        </div>
+      </section>
+
       {/* 6. CONTACT SECTION */}
       <section id="contact" className="rounded-3xl border border-border bg-card p-8 md:p-12 scroll-mt-20">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">

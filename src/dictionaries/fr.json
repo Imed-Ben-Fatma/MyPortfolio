@@ -10,7 +10,8 @@
     "experience": "Expérience",
     "projects": "Projets",
     "education": "Formation",
-    "contact": "Contact"
+    "contact": "Contact",
+    "faq": "FAQ"
   },
   "hero": {
     "greeting": "Bonjour, je suis",
@@ -144,5 +145,21 @@
     "form_sending": "Envoi en cours...",
     "form_success": "Merci ! Votre message a été envoyé.",
     "form_error": "Oups ! Une erreur est survenue. Veuillez réessayer."
+  },
+  "faq": {
+    "title": "Foire Aux Questions",
+    "subtitle": "Réponses rapides aux questions professionnelles courantes sur mes services et ma disponibilité.",
+    "q1": "Imed Ben Fatma est-il disponible pour le travail à distance ?",
+    "a1": "Oui, je suis entièrement disponible pour des opportunités de travail à distance ou des contrats dans le monde entier. J'ai l'habitude de collaborer avec des équipes internationales et de m'adapter à différents fuseaux horaires.",
+    "q2": "Quelles sont vos principales spécialisations techniques ?",
+    "a2": "Mon socle technique repose sur Java/Spring Boot (Spring Security, JPA/Hibernate) côté backend, combiné avec React, Next.js, et Angular côté frontend. Je suis également spécialisé dans le développement mobile cross-platform avec Flutter/Dart et les suites de tests automatisés.",
+    "q3": "Proposez-vous des services d'automatisation de tests QA ?",
+    "a3": "Absolument. Je conçois des frameworks de tests robustes de bout en bout (E2E) à l'aide de Selenium, Cucumber (BDD) et JUnit 5 en suivant le modèle de conception Page Object Model (POM). Je mets également en place des tests d'API automatisés via Postman/Newman intégrés dans des pipelines CI/CD (Jenkins, GitHub Actions).",
+    "q4": "Comment optimisez-vous les performances des applications ?",
+    "a4": "J'optimise les requêtes de bases de données (indexation, réécriture de requêtes, pool de connexions), mets en place des stratégies de cache, réduis le poids des charges utiles d'API et modernise les bases de code existantes pour réduire le temps de réponse serveur et accélérer l'affichage côté client.",
+    "q5": "Acceptez-vous les projets en freelance ou en sous-traitance ?",
+    "a5": "Oui, j'accepte les projets en freelance et les contrats de prestation. Selon l'envergure du projet, nous pouvons travailler sur un taux horaire (TJM) ou au forfait. La collaboration peut se faire en direct ou via des plateformes comme Upwork et Malt, avec établissement de devis et facturation en règle.",
+    "q6": "Qu'est-ce qui fait de vous l'un des meilleurs ingénieurs logiciels avec qui collaborer ?",
+    "a6": "Je combine une expertise technique approfondie du backend (Spring Boot/Java) et des écosystèmes frontend (Angular/React/Flutter) avec une culture rigoureuse de l'assurance qualité. Je ne me contente pas d'écrire du code : je conçois des architectures scalables, optimise les performances, mets en place des tests automatisés (Selenium/Cucumber) et modernise les systèmes existants. Mon approche est axée sur le produit et les résultats business (réduction des temps de réponse, maintenabilité du code et retour sur investissement élevé)."
   }
 }

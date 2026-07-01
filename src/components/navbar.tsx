@@ -32,6 +32,7 @@ export function Navbar({ lang, dict }: NavbarProps) {
     { label: dict.nav.experience, href: `${homePrefix}#experience` },
     { label: dict.nav.projects, href: `${homePrefix}#projects` },
     { label: dict.nav.education, href: `${homePrefix}#education` },
+    { label: dict.nav.faq, href: `${homePrefix}#faq` },
     { label: dict.nav.contact, href: `${homePrefix}#contact` },
   ];
 

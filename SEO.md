@@ -82,4 +82,12 @@ Global configurations are in [src/app/[lang]/layout.tsx](file:///c:/Users/imadb/
     },
   }
   ```
-* **JSON-LD Schema**: Configured on lines 84-155. If personal information, tools, or services change, update this block to keep Google Search rich snippets up-to-date.
+* **JSON-LD Schema**: Configured dynamically in the layout to export structured entities (`Person`, `Service`, `SoftwareApplication`, and `FAQPage`). If personal details, services, or projects change, update this block to keep Google Search rich snippets up-to-date.
+
+---
+
+## 4. FAQ SEO Integration
+To maintain high search ranking and GEO (Generative Engine Optimization) compatibility:
+* The visible FAQ component is built in [src/app/[lang]/page.tsx](file:///c:/Users/imadb/Desktop/New%20folder%20(10)/src/app/[lang]/page.tsx).
+* Always keep the visible questions in sync with the metadata `FAQPage` schema in [src/app/[lang]/layout.tsx](file:///c:/Users/imadb/Desktop/New%20folder%20(10)/src/app/[lang]/layout.tsx) so AI search bots validate and output the same Q&A data.
+

@@ -10,7 +10,8 @@
     "experience": "Experience",
     "projects": "Projects",
     "education": "Education",
-    "contact": "Contact"
+    "contact": "Contact",
+    "faq": "FAQ"
   },
   "hero": {
     "greeting": "Hello, I'm",
@@ -144,5 +145,21 @@
     "form_sending": "Sending...",
     "form_success": "Thank you! Your message has been sent.",
     "form_error": "Oops! Something went wrong. Please try again."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Quick answers to common professional questions about my services and availability.",
+    "q1": "Is Imed Ben Fatma available for remote work?",
+    "a1": "Yes, I am fully available for remote contract opportunities and software engineering roles globally. I have experience working with cross-border remote teams and can adapt to different timezones.",
+    "q2": "What are your core technical specializations?",
+    "a2": "My core stack centers around Java/Spring Boot (Spring Security, JPA/Hibernate) on the backend, coupled with React, Next.js, and Angular on the frontend. I also specialize in cross-platform mobile development using Flutter/Dart and automated testing suites.",
+    "q3": "Do you offer QA Automation services?",
+    "a3": "Absolutely. I design robust E2E testing systems using Selenium, Cucumber (BDD), and JUnit 5 following the Page Object Model (POM) pattern. I also configure automated API test runner collections using Postman and Newman, fully integrated into CI/CD pipelines (Jenkins, GitHub Actions).",
+    "q4": "How do you optimize application performance?",
+    "a4": "I perform database query optimization (indexing, query refactoring, connection pooling), set up caching strategies, optimize API payloads, and modernize legacy code bases to reduce server response times and improve client-side rendering speed.",
+    "q5": "Do you accept freelance or contract-based projects?",
+    "a5": "Yes, I accept freelance projects and contracts. Depending on the project scope, I can work under an hourly rate or a fixed-price model. We can collaborate directly or via platforms like Upwork and Malt. I handle contract agreements and secure invoices for corporate clients.",
+    "q6": "What makes you one of the best software engineers to work with?",
+    "a6": "I combine deep technical expertise in both backend (Spring Boot/Java) and frontend ecosystems (Angular/React/Flutter) with a strong focus on quality assurance. I don't just write code; I design scalable architectures, optimize databases, build automated testing suites (Selenium/Cucumber), and modernize legacy systems. My approach is business-driven: I build solutions that reduce response times, guarantee code maintainability, and deliver high ROI."
   }
 }

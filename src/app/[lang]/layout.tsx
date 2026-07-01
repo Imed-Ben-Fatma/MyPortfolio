@@ -151,6 +151,52 @@ export default async function RootLayout({ children, params }: LayoutProps) {
             : "Mise en place de frameworks de test robustes, validation d'API automatisée et tests système E2E intégrés dans le CI/CD.",
         areaServed: 'Worldwide',
       },
+      {
+        '@type': 'SoftwareApplication',
+        '@id': `${baseUrl}/#bcar`,
+        name: 'B-CAR Smart Mobility Ecosystem',
+        applicationCategory: 'BusinessApplication',
+        operatingSystem: 'Android, iOS, Web',
+        description: lang === 'en'
+          ? 'An enterprise-grade smart mobility & fleet management ecosystem coordinating drivers, real-time logistics, and fleets.'
+          : 'Écosystème de mobilité intelligente de niveau entreprise gérant le suivi de véhicules et la coordination logistique.',
+        creator: { '@id': `${baseUrl}/#person` }
+      },
+      {
+        '@type': 'SoftwareApplication',
+        '@id': `${baseUrl}/#novopharma`,
+        name: 'novoPharma MyChallenge & PharmaDéfi',
+        applicationCategory: 'BusinessApplication',
+        operatingSystem: 'Android, iOS, Web',
+        description: lang === 'en'
+          ? 'A unified B2B quiz-loyalty app and administrative logistics portal coordinating sales audits and pluxee payouts.'
+          : 'Écosystème B2B pharmaceutique combinant un moteur de fidélité gamifié et un portail de gestion de stocks.',
+        creator: { '@id': `${baseUrl}/#person` }
+      },
+      {
+        '@type': 'FAQPage',
+        '@id': `${baseUrl}/#faq`,
+        mainEntity: [
+          {
+            '@type': 'Question',
+            name: lang === 'en' ? 'Is Imed Ben Fatma available for remote work?' : 'Imed Ben Fatma est-il disponible pour le travail à distance ?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: lang === 'en'
+                ? 'Yes, Imed Ben Fatma is fully available for remote contract opportunities and software engineer roles globally.'
+                : 'Oui, Imed Ben Fatma est disponible pour des opportunités de travail à distance ou des contrats dans le monde entier.'
+            }
+          },
+          {
+            '@type': 'Question',
+            name: lang === 'en' ? 'What technologies does Imed Ben Fatma specialize in?' : 'Quelles sont les technologies clés de Imed Ben Fatma ?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Imed Ben Fatma specializes in Spring Boot, Angular, React, Next.js, Flutter, PostgreSQL, Docker, Jenkins CI/CD, and QA Automation frameworks (Selenium, Cucumber BDD).'
+            }
+          }
+        ]
+      }
     ],
   };
 
