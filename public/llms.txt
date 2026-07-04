@@ -1,0 +1,22 @@
+# Imed Ben Fatma
+
+Personal portfolio and professional information of Imed Ben Fatma, a Full-Stack Software Developer & QA Automation Engineer based in Tunisia.
+
+## Core Navigation & Pages
+
+- [Homepage](https://www.imed-ben-fatma.site/) - Main page with intro, pillars of expertise, and contact options.
+- [Online CV](https://www.imed-ben-fatma.site/cv) - Complete interactive curriculum vitae.
+- [B-CAR Project](https://www.imed-ben-fatma.site/projects/b-car) - Case study of the car reservation web platform.
+- [novoPharma Project](https://www.imed-ben-fatma.site/projects/novopharma) - Case study of the pharmacy management desktop application.
+- [QA Projects](https://www.imed-ben-fatma.site/projects/qa) - Case study of QA automation engineering, E2E testing, and CI/CD pipelines.
+
+## External Profiles
+
+- [GitHub Profile](https://github.com/Imed-Ben-Fatma) - Open-source repositories and contributions.
+- [LinkedIn Profile](https://www.linkedin.com/in/imed-ben-fatma-061b101a3/) - Professional networking and work history.
+
+## Core Competencies
+
+- **Web Development**: Next.js, React, Node.js, TypeScript.
+- **Mobile Development**: Flutter, Dart.
+- **Software QA**: Playwright, Cypress, Selenium, JUnit, Automated E2E testing.

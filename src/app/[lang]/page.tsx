@@ -64,12 +64,12 @@ export default async function Page({ params }: PageProps) {
             </p>
           </div>
 
-          <p className="text-base text-muted-foreground/90 leading-relaxed font-light max-w-xl">
+          <p className="text-base text-muted-foreground leading-relaxed font-light max-w-xl">
             {dict.hero.description}
           </p>
 
           <div className="flex flex-wrap items-center gap-2">
-            <span className="flex items-center text-sm font-light text-muted-foreground/80 mr-4">
+            <span className="flex items-center text-sm font-light text-muted-foreground mr-4">
               <MapPin className="h-4 w-4 mr-1 text-muted-foreground" />
               {dict.hero.location}
             </span>
@@ -212,10 +212,10 @@ export default async function Page({ params }: PageProps) {
                 <span className="text-xs font-semibold text-muted-foreground block tracking-wider uppercase">
                   {dict.experience.roles.apeiron_ai.duration}
                 </span>
-                <span className="text-sm font-light text-foreground/80 block mt-1">
+                <span className="text-sm font-light text-foreground block mt-1">
                   {dict.experience.roles.apeiron_ai.company}
                 </span>
-                <span className="text-xs font-light text-muted-foreground/80 flex items-center mt-1">
+                <span className="text-xs font-light text-muted-foreground flex items-center mt-1">
                   <MapPin className="h-3 w-3 mr-1" />
                   {dict.experience.roles.apeiron_ai.location}
                 </span>
@@ -244,10 +244,10 @@ export default async function Page({ params }: PageProps) {
                 <span className="text-xs font-semibold text-muted-foreground block tracking-wider uppercase">
                   {dict.experience.roles.apeiron_tech.duration}
                 </span>
-                <span className="text-sm font-light text-foreground/80 block mt-1">
+                <span className="text-sm font-light text-foreground block mt-1">
                   {dict.experience.roles.apeiron_tech.company}
                 </span>
-                <span className="text-xs font-light text-muted-foreground/80 flex items-center mt-1">
+                <span className="text-xs font-light text-muted-foreground flex items-center mt-1">
                   <MapPin className="h-3 w-3 mr-1" />
                   {dict.experience.roles.apeiron_tech.location}
                 </span>
@@ -275,10 +275,10 @@ export default async function Page({ params }: PageProps) {
                 <span className="text-xs font-semibold text-muted-foreground block tracking-wider uppercase">
                   {dict.experience.roles.terraform.duration}
                 </span>
-                <span className="text-sm font-light text-foreground/80 block mt-1">
+                <span className="text-sm font-light text-foreground block mt-1">
                   {dict.experience.roles.terraform.company}
                 </span>
-                <span className="text-xs font-light text-muted-foreground/80 flex items-center mt-1">
+                <span className="text-xs font-light text-muted-foreground flex items-center mt-1">
                   <MapPin className="h-3 w-3 mr-1" />
                   {dict.experience.roles.terraform.location}
                 </span>

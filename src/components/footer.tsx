@@ -34,15 +34,15 @@ export function Footer({ lang, dict }: FooterProps) {
             </span>
             <ul className="mt-2 space-y-2 text-sm text-muted-foreground">
               <li className="flex items-center space-x-2">
-                <MapPin className="h-4 w-4 shrink-0 text-muted-foreground/80" />
+                <MapPin className="h-4 w-4 shrink-0 text-muted-foreground" />
                 <span>{dict.hero.location}</span>
               </li>
               <li className="flex items-center space-x-2 hover:text-foreground transition-colors duration-200">
-                <Mail className="h-4 w-4 shrink-0 text-muted-foreground/80" />
+                <Mail className="h-4 w-4 shrink-0 text-muted-foreground" />
                 <a href="mailto:imad.benfatma98@gmail.com">imad.benfatma98@gmail.com</a>
               </li>
               <li className="flex items-center space-x-2 hover:text-foreground transition-colors duration-200">
-                <Phone className="h-4 w-4 shrink-0 text-muted-foreground/80" />
+                <Phone className="h-4 w-4 shrink-0 text-muted-foreground" />
                 <a href="tel:+21651198800">+216 51 198 800</a>
               </li>
             </ul>
