@@ -10,7 +10,7 @@ export function proxy(request: NextRequest) {
     pathname.startsWith('/api') ||
     pathname.includes('.') ||
     pathname === '/favicon.ico' ||
-    pathname === '/profile.jpg'
+    pathname === '/profile.png'
   ) {
     return NextResponse.next();
   }
@@ -77,8 +77,8 @@ export const config = {
      * - _next/static (static files)
      * - _next/image (image optimization files)
      * - favicon.ico (favicon file)
-     * - profile.jpg (profile picture)
+     * - profile.png (profile picture)
      */
-    '/((?!api|_next/static|_next/image|favicon.ico|profile.jpg).*)',
+    '/((?!api|_next/static|_next/image|favicon.ico|profile.png).*)',
   ],
 };

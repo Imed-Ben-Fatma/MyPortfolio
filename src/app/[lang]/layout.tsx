@@ -58,7 +58,7 @@ export async function generateMetadata({
       type: 'website',
       images: [
         {
-          url: `${baseUrl}/profile.jpg`,
+          url: `${baseUrl}/profile.png`,
           width: 800,
           height: 800,
           alt: 'Imed Ben Fatma Headshot',
@@ -69,7 +69,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: dict.meta.title,
       description: dict.meta.description,
-      images: [`${baseUrl}/profile.jpg`],
+      images: [`${baseUrl}/profile.png`],
     },
     icons: {
       icon: [
@@ -100,7 +100,7 @@ export default async function RootLayout({ children, params }: LayoutProps) {
           ? 'Imed Ben Fatma is an Arabic software engineer and Tunisian full stack developer freelance. Based in Tunisia, he specializes in custom ERP/CRM development, web apps, and QA automation.'
           : 'Imed Ben Fatma est un ingénieur informatique freelance tunisien et développeur full-stack. Basé en Tunisie, il conçoit des architectures web, ERP, CRM et automatise les tests QA.',
         url: baseUrl,
-        image: `${baseUrl}/profile.jpg`,
+        image: `${baseUrl}/profile.png`,
         sameAs: [
           'https://www.linkedin.com/in/imed-ben-fatma-061b101a3/',
           'https://github.com/Imed-Ben-Fatma',

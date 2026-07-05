@@ -14,7 +14,8 @@ import {
   ExternalLink
 } from 'lucide-react';
 import { getDictionary } from '@/dictionaries/get-dictionary';
-import profilePic from '@/../public/profile.jpg';
+import profilePic from '@/../public/profile.png';
+import ProfileImage from '@/components/profile-image';
 
 interface PageProps {
   params: Promise<{ lang: string }>;
@@ -106,28 +107,8 @@ export default async function Page({ params }: PageProps) {
           </div>
         </div>
 
-        {/* Hero Headshot Frame with Premium Rings */}
-        <div className="md:col-span-5 flex justify-center">
-          <div className="relative group flex items-center justify-center">
-            {/* Double Border Accent Ring (Glow Effect) */}
-            <div className="absolute -inset-2 rounded-[2.5rem] bg-gradient-to-tr from-slate-200 to-slate-300 dark:from-zinc-800 dark:to-zinc-900 opacity-30 blur-lg transition duration-1000 group-hover:opacity-40"></div>
-            
-            {/* Minimalist Geometric Double Frame */}
-            <div className="relative p-1.5 rounded-[2rem] border border-border bg-background shadow-xl">
-              <div className="relative overflow-hidden rounded-[1.75rem] border border-border/80 w-[280px] h-[340px] sm:w-[320px] sm:h-[390px] bg-muted">
-                <Image
-                  src={profilePic}
-                  alt="Imed Ben Fatma Headshot"
-                  fill
-                  priority
-                  placeholder="blur"
-                  sizes="(max-width: 768px) 280px, 320px"
-                  className="object-cover transition-transform duration-500 hover:scale-105"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+        {/* Frameless Interactive Floating Portrait */}
+        <ProfileImage src={profilePic} alt="Imed Ben Fatma Headshot" />
       </section>
 
       {/* 2. SERVICES SECTION */}
