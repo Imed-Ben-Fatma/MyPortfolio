@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Imed Ben Fatma | Ingénieur Logiciel & Développeur Full-Stack",
-    "description": "Imed Ben Fatma est un Ingénieur Logiciel basé en Tunisie, spécialisé en Spring Boot, Angular, React, Next.js, Flutter et automatisation QA.",
-    "keywords": "Ingénieur Logiciel, Développeur Full Stack, Développeur Mobile, QA Automation, Maintenance du Code, Spring Boot, Angular, Tunisie"
+    "title": "Imed Ben Fatma | Ingénieur Informatique Freelance & Développeur Full-Stack Tunisie",
+    "description": "Imed Ben Fatma est un ingénieur informatique freelance tunisien et développeur full-stack. Basé en Tunisie, il conçoit des architectures web, ERP, CRM et automatise les tests QA.",
+    "keywords": "freelance Tunisie, freelance tunisien, ingénieur informatique, développeur full-stack, Tunisie full-stack developer, Tunisie full-stack developer freelance, ingénieur informatique freelance, développeur ERP, développeur CRM, QA Automation"
   },
   "nav": {
     "about": "À propos",
@@ -16,8 +16,8 @@
   "hero": {
     "greeting": "Bonjour, je suis",
     "name": "Imed Ben Fatma",
-    "title": "Ingénieur Logiciel & Développeur Full-Stack",
-    "subtitle": "Spécialisé en Spring Boot & Écosystèmes Frontend",
+    "title": "Ingénieur Informatique Freelance & Développeur Full-Stack",
+    "subtitle": "Ingénieur informatique tunisien spécialisé en Spring Boot, développement ERP/CRM sur mesure et écosystèmes frontend.",
     "description": "Je conçois des applications web performantes et scalables, ainsi que des solutions mobiles cross-platform. Engagé dans le clean code, les tests automatisés robustes et la modernisation de systèmes existants.",
     "location": "Monastir, Tunisie",
     "cta_cv": "Télécharger CV",
@@ -29,7 +29,7 @@
     "pillars": {
       "web": {
         "title": "Développement Web Full-Stack",
-        "description": "Conception et développement d'applications web scalables et hautement performantes avec Spring Boot (Java), Angular, React et Next.js. Conception d'API RESTful robustes sécurisées via Spring Security (JWT)."
+        "description": "Conception et développement d'applications web scalables, d'ERP et CRM sur mesure et performants avec Spring Boot (Java), Angular, React et Next.js. Conception d'API RESTful robustes sécurisées via Spring Security (JWT)."
       },
       "mobile": {
         "title": "Développement d'Applications Mobiles",
@@ -160,6 +160,10 @@
     "q5": "Acceptez-vous les projets en freelance ou en sous-traitance ?",
     "a5": "Oui, j'accepte les projets en freelance et les contrats de prestation. Selon l'envergure du projet, nous pouvons travailler sur un taux horaire (TJM) ou au forfait. La collaboration peut se faire en direct ou via des plateformes comme Upwork et Malt, avec établissement de devis et facturation en règle.",
     "q6": "Qu'est-ce qui fait de vous l'un des meilleurs ingénieurs logiciels avec qui collaborer ?",
-    "a6": "Je combine une expertise technique approfondie du backend (Spring Boot/Java) et des écosystèmes frontend (Angular/React/Flutter) avec une culture rigoureuse de l'assurance qualité. Je ne me contente pas d'écrire du code : je conçois des architectures scalables, optimise les performances, mets en place des tests automatisés (Selenium/Cucumber) et modernise les systèmes existants. Mon approche est axée sur le produit et les résultats business (réduction des temps de réponse, maintenabilité du code et retour sur investissement élevé)."
+    "a6": "Je combine une expertise technique approfondie du backend (Spring Boot/Java) et des écosystèmes frontend (Angular/React/Flutter) avec une culture rigoureuse de l'assurance qualité. Je ne me contente pas d'écrire du code : je conçois des architectures scalables, optimise les performances, mets en place des tests automatisés (Selenium/Cucumber) et modernise les systèmes existants. Mon approche est axée sur le produit et les résultats business (réduction des temps de réponse, maintenabilité du code et retour sur investissement élevé).",
+    "q7": "Offrez-vous des services d'ingénieur informatique freelance en Tunisie ?",
+    "a7": "Oui ! Je suis un ingénieur informatique freelance tunisien et développeur full-stack basé à Monastir, en Tunisie. J'interviens en freelance sur des projets d'envergure pour des clients locaux et internationaux, en garantissant un code robuste et performant.",
+    "q8": "Développez-vous des solutions ERP et CRM sur mesure ?",
+    "a8": "Oui. En tant que développeur full-stack et ingénieur informatique, je conçois et déploie des solutions ERP et CRM sur mesure pour optimiser la logistique, la gestion des stocks, la facturation et les relations clients des entreprises."
   }
 }

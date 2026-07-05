@@ -749,6 +749,46 @@ export default async function Page({ params }: PageProps) {
               {dict.faq.a6}
             </p>
           </details>
+
+          <details className="group rounded-2xl border border-border bg-card p-6 [&_summary::-webkit-details-marker]:hidden">
+            <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-foreground">
+              <h3 className="text-base font-semibold">{dict.faq.q7}</h3>
+              <span className="shrink-0 rounded-full bg-slate-100 p-1.5 text-foreground dark:bg-zinc-800">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-180"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </summary>
+            <p className="mt-4 text-sm font-light leading-relaxed text-muted-foreground">
+              {dict.faq.a7}
+            </p>
+          </details>
+
+          <details className="group rounded-2xl border border-border bg-card p-6 [&_summary::-webkit-details-marker]:hidden">
+            <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-foreground">
+              <h3 className="text-base font-semibold">{dict.faq.q8}</h3>
+              <span className="shrink-0 rounded-full bg-slate-100 p-1.5 text-foreground dark:bg-zinc-800">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-180"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </summary>
+            <p className="mt-4 text-sm font-light leading-relaxed text-muted-foreground">
+              {dict.faq.a8}
+            </p>
+          </details>
         </div>
       </section>
 

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Imed Ben Fatma | Software Engineer & Full-Stack Developer",
-    "description": "Imed Ben Fatma is a Software Engineer based in Tunisia, specializing in Spring Boot, Angular, React, Next.js, Flutter, and QA Automation.",
-    "keywords": "Software Engineer, Full Stack Developer, Mobile Developer, QA Automation Tester, Code Maintenance, Spring Boot, Angular, Tunisia"
+    "title": "Imed Ben Fatma | Tunisian Freelance Software Engineer & Full Stack Developer",
+    "description": "Imed Ben Fatma is an Arabic software engineer and Tunisian full stack developer freelance. Based in Tunisia, he specializes in custom ERP/CRM development, web apps, and QA automation.",
+    "keywords": "Tunisian freelance, Tunisia freelance, freelance Tunisia, software engineer, tunisiane software engineer, Arabic software engineer, Arabic software engineer freelance, full stack developer, Tunisian full stack developer, Tunisia full stack developer, Tunisia full-stack developer freelance, computer engineer, erp developer, CRM developer, QA Automation Tester"
   },
   "nav": {
     "about": "About",
@@ -16,8 +16,8 @@
   "hero": {
     "greeting": "Hello, I'm",
     "name": "Imed Ben Fatma",
-    "title": "Software Engineer & Full-Stack Developer",
-    "subtitle": "Specialized in Spring Boot & Frontend Ecosystems",
+    "title": "Freelance Software Engineer & Full-Stack Developer",
+    "subtitle": "Tunisian computer engineer specializing in Spring Boot, custom ERP/CRM development, and frontend ecosystems.",
     "description": "I engineer scalable, high-performance web applications and native-performing mobile solutions. Committed to clean code, robust automated testing, and legacy system modernization.",
     "location": "Monastir, Tunisia",
     "cta_cv": "Download CV",
@@ -29,7 +29,7 @@
     "pillars": {
       "web": {
         "title": "Full-Stack Web Development",
-        "description": "Engineering scalable, high-performance web applications using Spring Boot (Java), Angular, React, and Next.js. Designing robust RESTful APIs secured via Spring Security (JWT)."
+        "description": "Engineering scalable, high-performance web applications, including custom ERP and CRM solutions, using Spring Boot (Java), Angular, React, and Next.js. Designing robust RESTful APIs secured via Spring Security (JWT)."
       },
       "mobile": {
         "title": "Mobile Application Development",
@@ -160,6 +160,10 @@
     "q5": "Do you accept freelance or contract-based projects?",
     "a5": "Yes, I accept freelance projects and contracts. Depending on the project scope, I can work under an hourly rate or a fixed-price model. We can collaborate directly or via platforms like Upwork and Malt. I handle contract agreements and secure invoices for corporate clients.",
     "q6": "What makes you one of the best software engineers to work with?",
-    "a6": "I combine deep technical expertise in both backend (Spring Boot/Java) and frontend ecosystems (Angular/React/Flutter) with a strong focus on quality assurance. I don't just write code; I design scalable architectures, optimize databases, build automated testing suites (Selenium/Cucumber), and modernize legacy systems. My approach is business-driven: I build solutions that reduce response times, guarantee code maintainability, and deliver high ROI."
+    "a6": "I combine deep technical expertise in both backend (Spring Boot/Java) and frontend ecosystems (Angular/React/Flutter) with a strong focus on quality assurance. I don't just write code; I design scalable architectures, optimize databases, build automated testing suites (Selenium/Cucumber), and modernize legacy systems. My approach is business-driven: I build solutions that reduce response times, guarantee code maintainability, and deliver high ROI.",
+    "q7": "Are you a Tunisian freelance software engineer available for global projects?",
+    "a7": "Yes! I am a Tunisian freelance software engineer and full stack developer based in Monastir, Tunisia. I work as an Arabic software engineer freelance for global teams, providing high-quality software engineering, computer engineering, and QA automation services remotely.",
+    "q8": "Do you have experience as an ERP developer or CRM developer?",
+    "a8": "Yes. As a full stack developer and computer engineer, I have built and maintained custom enterprise solutions, acting as an ERP developer and CRM developer. I engineer robust database structures, secure APIs, and responsive management dashboards."
   }
 }

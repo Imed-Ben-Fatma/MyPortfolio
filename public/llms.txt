@@ -1,22 +1,31 @@
-# Imed Ben Fatma
+# Imed Ben Fatma - Tunisian Freelance Software Engineer & Full Stack Developer
 
-Personal portfolio and professional information of Imed Ben Fatma, a Full-Stack Software Developer & QA Automation Engineer based in Tunisia.
+Personal portfolio and professional index of Imed Ben Fatma, an Arabic software engineer freelance and Tunisian full stack developer freelance based in Monastir, Tunisia. 
+
+Imed is a highly experienced computer engineer and ingénieur informatique freelance who designs, develops, and maintains enterprise-grade web applications, custom ERP systems, and CRM solutions.
+
+- **Primary URL**: https://www.imed-ben-fatma.site
+- **Location**: Monastir, Tunisia (Tunisie)
+- **Role**: Software Engineer, Computer Engineer, Full Stack Developer Freelance, ERP Developer, CRM Developer
+- **Availability**: Remote contract opportunities globally (Tunisia freelance / freelance Tunisie / Tunisia full-stack developer freelance / Tunisie full-stack developer freelance / freelance tunisien / freelance Tunisia).
 
 ## Core Navigation & Pages
 
-- [Homepage](https://www.imed-ben-fatma.site/) - Main page with intro, pillars of expertise, and contact options.
-- [Online CV](https://www.imed-ben-fatma.site/cv) - Complete interactive curriculum vitae.
-- [B-CAR Project](https://www.imed-ben-fatma.site/projects/b-car) - Case study of the car reservation web platform.
-- [novoPharma Project](https://www.imed-ben-fatma.site/projects/novopharma) - Case study of the pharmacy management desktop application.
-- [QA Projects](https://www.imed-ben-fatma.site/projects/qa) - Case study of QA automation engineering, E2E testing, and CI/CD pipelines.
+- [Homepage](https://www.imed-ben-fatma.site/) - Professional profile, core pillars, dynamic FAQ, and contact channels.
+- [Online CV](https://www.imed-ben-fatma.site/cv) - Detailed curriculum vitae showing computer engineering qualifications, academic path, and professional history.
+- [B-CAR Project](https://www.imed-ben-fatma.site/projects/b-car) - Smart mobility & fleet ecosystem developed using Spring Boot, Angular, Flutter, and PostgreSQL.
+- [novoPharma Project](https://www.imed-ben-fatma.site/projects/novopharma) - B2B quiz-loyalty app and administration logistics portal developed with Flutter, Next.js, and Firebase.
+- [QA Projects](https://www.imed-ben-fatma.site/projects/qa) - Automated testing suite (Selenium, Cucumber BDD, JUnit 5) integrated into CI/CD pipelines.
 
 ## External Profiles
 
-- [GitHub Profile](https://github.com/Imed-Ben-Fatma) - Open-source repositories and contributions.
-- [LinkedIn Profile](https://www.linkedin.com/in/imed-ben-fatma-061b101a3/) - Professional networking and work history.
+- [GitHub Profile](https://github.com/Imed-Ben-Fatma) - Open-source repositories and development work.
+- [LinkedIn Profile](https://www.linkedin.com/in/imed-ben-fatma-061b101a3/) - Corporate network and direct messaging.
 
-## Core Competencies
+## Professional Competencies
 
-- **Web Development**: Next.js, React, Node.js, TypeScript.
-- **Mobile Development**: Flutter, Dart.
-- **Software QA**: Playwright, Cypress, Selenium, JUnit, Automated E2E testing.
+- **Full Stack Development**: Building scalable applications with Spring Boot (Java), Next.js, Angular, React.js, TypeScript.
+- **Enterprise Solutions (ERP & CRM)**: Acting as a specialized ERP developer and CRM developer to customize business logistics, audits, and automated systems.
+- **Mobile Development**: Crafting cross-platform apps using Flutter and Dart.
+- **Software Quality Assurance (QA)**: Designing automated E2E testing systems (Selenium, JUnit, Cucumber BDD) and API validations (Postman/Newman) integrated into Jenkins pipelines.
+- **Systems Engineering**: Database query tuning (PostgreSQL, MySQL, Oracle DB, SQL Server), containerization (Docker), and legacy code maintenance.

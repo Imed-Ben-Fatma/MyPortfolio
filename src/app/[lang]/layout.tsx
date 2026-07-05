@@ -95,7 +95,10 @@ export default async function RootLayout({ children, params }: LayoutProps) {
         '@type': 'Person',
         '@id': `${baseUrl}/#person`,
         name: 'Imed Ben Fatma',
-        jobTitle: 'Software Engineer & Full-Stack Developer',
+        jobTitle: lang === 'en' ? 'Tunisian Freelance Software Engineer & Full-Stack Developer' : 'Ingénieur Informatique Freelance & Développeur Full-Stack',
+        description: lang === 'en'
+          ? 'Imed Ben Fatma is an Arabic software engineer and Tunisian full stack developer freelance. Based in Tunisia, he specializes in custom ERP/CRM development, web apps, and QA automation.'
+          : 'Imed Ben Fatma est un ingénieur informatique freelance tunisien et développeur full-stack. Basé en Tunisie, il conçoit des architectures web, ERP, CRM et automatise les tests QA.',
         url: baseUrl,
         image: `${baseUrl}/profile.jpg`,
         sameAs: [
@@ -123,6 +126,11 @@ export default async function RootLayout({ children, params }: LayoutProps) {
           'JUnit 5',
           'Selenium',
           'Cucumber BDD',
+          'ERP Development',
+          'CRM Development',
+          'Software Engineering',
+          'Computer Engineering',
+          'Full-Stack Web Development',
         ],
       },
       {
@@ -132,8 +140,19 @@ export default async function RootLayout({ children, params }: LayoutProps) {
         provider: { '@id': `${baseUrl}/#person` },
         description:
           lang === 'en'
-            ? 'Engineering scalable, high-performance web applications using Spring Boot (Java), Angular, React, and Next.js.'
-            : "Conception et développement d'applications web scalables et performantes avec Spring Boot (Java), Angular, React et Next.js.",
+            ? 'Engineering scalable, high-performance web applications, including custom ERP and CRM solutions, using Spring Boot (Java), Angular, React, and Next.js.'
+            : "Conception et développement d'applications web scalables, d'ERP et CRM sur mesure et performants avec Spring Boot (Java), Angular, React et Next.js.",
+        areaServed: 'Worldwide',
+      },
+      {
+        '@type': 'Service',
+        '@id': `${baseUrl}/#erpcrm`,
+        name: lang === 'en' ? 'Custom ERP & CRM Development' : 'Développement ERP & CRM sur Mesure',
+        provider: { '@id': `${baseUrl}/#person` },
+        description:
+          lang === 'en'
+            ? 'Designing and developing tailor-made Enterprise Resource Planning (ERP) and Customer Relationship Management (CRM) tools to automate business operations.'
+            : "Conception et développement d'outils Enterprise Resource Planning (ERP) et Customer Relationship Management (CRM) sur mesure pour automatiser les opérations de l'entreprise.",
         areaServed: 'Worldwide',
       },
       {
@@ -176,7 +195,7 @@ export default async function RootLayout({ children, params }: LayoutProps) {
         applicationCategory: 'BusinessApplication',
         operatingSystem: 'Android, iOS, Web',
         description: lang === 'en'
-          ? 'A unified B2B quiz-loyalty app and administrative logistics portal coordinating sales audits and pluxee payouts.'
+          ? 'An unified B2B quiz-loyalty app and administrative logistics portal coordinating sales audits and pluxee payouts.'
           : 'Écosystème B2B pharmaceutique combinant un moteur de fidélité gamifié et un portail de gestion de stocks.',
         creator: { '@id': `${baseUrl}/#person` }
       },
@@ -200,6 +219,26 @@ export default async function RootLayout({ children, params }: LayoutProps) {
             acceptedAnswer: {
               '@type': 'Answer',
               text: 'Imed Ben Fatma specializes in Spring Boot, Angular, React, Next.js, Flutter, PostgreSQL, Docker, Jenkins CI/CD, and QA Automation frameworks (Selenium, Cucumber BDD).'
+            }
+          },
+          {
+            '@type': 'Question',
+            name: lang === 'en' ? 'Are you a Tunisian freelance software engineer available for global projects?' : 'Offrez-vous des services d\'ingénieur informatique freelance en Tunisie ?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: lang === 'en'
+                ? 'Yes! I am a Tunisian freelance software engineer and full stack developer based in Monastir, Tunisia. I work as an Arabic software engineer freelance for global teams, providing high-quality software engineering, computer engineering, and QA automation services remotely.'
+                : 'Oui ! Je suis un ingénieur informatique freelance tunisien et développeur full-stack basé à Monastir, en Tunisie. J\'interviens en freelance sur des projets d\'envergure pour des clients locaux et internationaux, en garantissant un code robuste et performant.'
+            }
+          },
+          {
+            '@type': 'Question',
+            name: lang === 'en' ? 'Do you have experience as an ERP developer or CRM developer?' : 'Développez-vous des solutions ERP et CRM sur mesure ?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: lang === 'en'
+                ? 'Yes. As a full stack developer and computer engineer, I have built and maintained custom enterprise solutions, acting as an ERP developer and CRM developer. I engineer robust database structures, secure APIs, and responsive management dashboards.'
+                : 'Oui. En tant que développeur full-stack et ingénieur informatique, je conçois et déploie des solutions ERP et CRM sur mesure pour optimiser la logistique, la gestion des stocks, la facturation et les relations clients des entreprises.'
             }
           }
         ]
