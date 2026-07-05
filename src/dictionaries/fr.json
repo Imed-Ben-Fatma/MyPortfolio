@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Imed Ben Fatma | Ingénieur Informatique Freelance & Développeur Full-Stack Tunisie",
-    "description": "Imed Ben Fatma est un ingénieur informatique freelance tunisien et développeur full-stack. Basé en Tunisie, il conçoit des architectures web, ERP, CRM et automatise les tests QA.",
-    "keywords": "freelance Tunisie, freelance tunisien, ingénieur informatique, développeur full-stack, Tunisie full-stack developer, Tunisie full-stack developer freelance, ingénieur informatique freelance, développeur ERP, développeur CRM, QA Automation"
+    "title": "Imed Ben Fatma | Ingénieur Logiciel Freelance Tunisien & Développeur Full Stack",
+    "description": "Imed Ben Fatma est un ingénieur logiciel tunisien et développeur full stack freelance. Basé en Tunisie, il se spécialise dans le développement d'ERP/CRM sur mesure, d'applications web et de tests automatisés (QA).",
+    "keywords": "Freelance tunisien, freelance Tunisie, logiciel Tunisie, ingénieur logiciel, développeur full stack, développeur ERP, développeur CRM, testeur QA automatisé"
   },
   "nav": {
     "about": "À propos",
@@ -16,32 +16,32 @@
   "hero": {
     "greeting": "Bonjour, je suis",
     "name": "Imed Ben Fatma",
-    "title": "Ingénieur Informatique Freelance & Développeur Full-Stack",
-    "subtitle": "Ingénieur informatique tunisien spécialisé en Spring Boot, développement ERP/CRM sur mesure et écosystèmes frontend.",
-    "description": "Je conçois des applications web performantes et scalables, ainsi que des solutions mobiles cross-platform. Engagé dans le clean code, les tests automatisés robustes et la modernisation de systèmes existants.",
+    "title": "Ingénieur Logiciel Freelance & Développeur Full-Stack",
+    "subtitle": "Ingénieur informatique tunisien spécialisé en Spring Boot, ERP/CRM personnalisés et écosystèmes frontend.",
+    "description": "Je conçois des applications web performantes et évolutives ainsi que des solutions mobiles hybrides haute fidélité. Engagé envers le code propre, les tests automatisés et la modernisation de systèmes existants.",
     "location": "Monastir, Tunisie",
     "cta_cv": "Télécharger CV",
     "cta_contact": "Me contacter"
   },
   "services": {
     "title": "Services Premium",
-    "subtitle": "Des solutions d'ingénierie à forte valeur ajoutée, conçues pour évoluer.",
+    "subtitle": "Des solutions d'ingénierie à haute valeur ajoutée conçues pour faire évoluer votre entreprise.",
     "pillars": {
       "web": {
         "title": "Développement Web Full-Stack",
-        "description": "Conception et développement d'applications web scalables, d'ERP et CRM sur mesure et performants avec Spring Boot (Java), Angular, React et Next.js. Conception d'API RESTful robustes sécurisées via Spring Security (JWT)."
+        "description": "Conception d'applications web performantes, incluant des solutions ERP et CRM sur mesure, avec Spring Boot (Java), Angular, React et Next.js. Conception d'API RESTful sécurisées via Spring Security (JWT)."
       },
       "mobile": {
         "title": "Développement d'Applications Mobiles",
-        "description": "Création d'applications mobiles cross-platform performantes et haute fidélité avec Flutter et Dart pour offrir des expériences mobiles exceptionnelles."
+        "description": "Création d'applications mobiles multiplateformes haute fidélité avec Flutter et Dart pour offrir des expériences utilisateur optimales."
       },
       "qa": {
         "title": "Assurance Qualité Logicielle (QA)",
-        "description": "Mise en place de frameworks de test robustes. Validation d'API automatisée (Postman/Newman) et tests système E2E (Selenium, JUnit, Cucumber BDD) avec le design pattern Page Object Model (POM) intégrés dans les pipelines CI/CD."
+        "description": "Mise en place de frameworks de tests robustes. Validation automatisée d'API (Postman/Newman) et tests système de bout en bout (Selenium, JUnit, Cucumber BDD) utilisant le modèle Page Object (POM) intégré dans la CI/CD."
       },
       "maintenance": {
-        "title": "Maintenance & Conseil Système",
-        "description": "Optimisation des bases de données, conseil architectural, refactoring de code hérité, optimisation de requêtes (réduction des temps de réponse des API jusqu'à 20%), et intégration continue."
+        "title": "Maintenance Système & Conseil",
+        "description": "Optimisation de bases de données, conseil en architecture, refactoring de code hérité, optimisation de requêtes (réduction des temps de réponse d'API jusqu'à 20%) et intégration continue."
       }
     }
   },
@@ -54,24 +54,46 @@
         "company": "Apeiron AI",
         "duration": "Août 2025 - Présent",
         "location": "Sousse, Tunisie",
-        "bullet1": "Développement d'une plateforme de mobilité intelligente centralisant la gestion de flotte automobile via Spring Boot, Angular et Flutter.",
-        "bullet2": "Digitalisation de la chaîne d'approvisionnement pharmaceutique : conception d'un moteur de fidélisation trade-marketing (Backend Java, Next.js, Flutter).",
-        "bullet3": "Innovation Produit : Intégration réussie de modules d'Intelligence Artificielle Générative (LLM) pour l'analyse automatisée de compatibilité CV/Offres."
+        "bullets": [
+          "Conception et intégration de systèmes d'analyse sémantique utilisant des modèles de langage de grande taille (LLM).",
+          "Architecture et développement de solutions logicielles complexes axées sur la mise à l'échelle des données et les pipelines de mobilité intelligente.",
+          "Digitalisation et optimisation des processus métier via Next.js et des intégrations backend personnalisées.",
+          "Analyse des performances du système et optimisation des structures de bases de données, obtenant une réduction de 20 % de la latence des API."
+        ]
       },
       "apeiron_tech": {
-        "role": "Développeur Full-Stack",
+        "role": "Stagiaire Ingénieur Logiciel",
         "company": "Apeiron Technologies",
         "duration": "Févr. 2025 - Mai 2025",
         "location": "Sousse, Tunisie",
-        "bullet1": "Conception d'une infrastructure SaaS sécurisée avec Spring Security et gestion de la couche de persistance via JPA/Hibernate sur des bases de données MySQL.",
-        "bullet2": "Automatisation des workflows de tests unitaires et d'intégration via des pipelines CI/CD Jenkins pour assurer la stabilité du produit."
+        "bullets": [
+          "Analyse et conception d'architectures backend sécurisées et prêtes pour la production avec Spring Boot.",
+          "Implémentation de structures de bases de données relationnelles et développement d'API REST hautement performantes.",
+          "Utilisation d'outils de programmation assistés par IA pour rationaliser la génération de code propre et optimiser les cycles de vie de développement.",
+          "Rédaction de spécifications techniques détaillées et de documentation système."
+        ]
+      },
+      "com_and_dev": {
+        "role": "Stagiaire Développeur Logiciel",
+        "company": "Com-and-Dev",
+        "duration": "Juin 2024 - Juillet 2024",
+        "location": "Sousse, Tunisie",
+        "bullets": [
+          "Conception et développement d'une application de gestion d'entreprise multi-utilisateurs full-stack.",
+          "Développement d'API robustes et découplées pour assurer des flux de données fluides entre le frontend et le backend.",
+          "Création d'interfaces utilisateur hautement réactives en respectant les standards modernes du web."
+        ]
       },
       "terraform": {
-        "role": "Développeur Full-Stack",
+        "role": "Stagiaire Ingénieur Logiciel",
         "company": "Terraform Tunisia",
-        "duration": "Déc. 2024",
+        "duration": "Févr. 2024 - Avril 2024",
         "location": "Sousse, Tunisie",
-        "bullet1": "Développement d'une application SaaS de gestion éducative/crèche utilisant le stack Spring Boot et React sur une base de données relationnelle PostgreSQL complexe."
+        "bullets": [
+          "Recueil des besoins utilisateurs et développement d'une plateforme centralisée avec Next.js et Spring Boot.",
+          "Modélisation et optimisation de schémas de bases de données relationnelles sous PostgreSQL.",
+          "Participation à des revues de code collaboratives pour assurer la scalabilité du code et sa propreté."
+        ]
       }
     }
   },
@@ -98,14 +120,14 @@
         "description": "Plateforme complète d'assurance qualité intégrant des tests Selenium/Cucumber de bout en bout (E2E), des validations API avec Newman, et des pipelines d'intégration continue Jenkins."
       },
       "bi": {
-        "title": "Business Intelligence & Analytics B2C",
-        "description": "Moteur interactif d'analyse de KPIs de 4 pages s'appuyant sur des pipelines ETL personnalisés, une modélisation SQL Server et des dashboards Power BI pour suivre les ventes, la logistique et les clients."
+        "title": "Analyses Business Intelligence B2C",
+        "description": "Moteur d'indicateurs de performance interactif en 4 pages utilisant des pipelines ETL personnalisés, de la modélisation SQL Server et des tableaux de bord Power BI riches pour suivre la logistique, les ventes et les clients."
       }
     }
   },
   "education": {
-    "title": "Formation & Parcours",
-    "subtitle": "Mes diplômes académiques et qualifications en ingénierie.",
+    "title": "Éducation & Parcours",
+    "subtitle": "Étapes académiques et qualifications en ingénierie.",
     "items": {
       "epi": {
         "degree": "Diplôme National d'Ingénieur en Informatique",
@@ -117,23 +139,23 @@
         "degree": "Licence en Automatique et Informatique Industrielle",
         "school": "ISET Kairouan",
         "duration": "2019 - 2022",
-        "location": "Kairouan, Tunisie"
+        "location": "Kairouan, Tunisia"
       }
     }
   },
   "skills": {
     "title": "Compétences Techniques",
-    "subtitle": "Mes outils, langages et méthodologies de prédilection.",
+    "subtitle": "Mes outils, langages et méthodologies de travail.",
     "categories": {
-      "backend": "Backend & BDD",
+      "backend": "Backend & BD",
       "frontend": "Frontend & Mobile",
       "devops": "DevOps & CI/CD",
       "qa": "QA & Tests"
     }
   },
   "contact": {
-    "title": "Me Contacter",
-    "subtitle": "Collaborons ensemble sur vos projets d'applications ou vos architectures logicielles.",
+    "title": "Me contacter",
+    "subtitle": "Collaborons ensemble sur votre prochain produit digital ou design d'architecture.",
     "email": "E-mail",
     "phone": "Téléphone",
     "linkedin": "LinkedIn",
@@ -141,29 +163,32 @@
     "form_name": "Nom",
     "form_email": "Adresse E-mail",
     "form_message": "Message",
-    "form_submit": "Envoyer le Message",
+    "form_submit": "Envoyer",
     "form_sending": "Envoi en cours...",
-    "form_success": "Merci ! Votre message a été envoyé.",
+    "form_success": "Merci ! Votre message a bien été envoyé.",
     "form_error": "Oups ! Une erreur est survenue. Veuillez réessayer."
   },
   "faq": {
-    "title": "Foire Aux Questions",
-    "subtitle": "Réponses rapides aux questions professionnelles courantes sur mes services et ma disponibilité.",
-    "q1": "Imed Ben Fatma est-il disponible pour le travail à distance ?",
-    "a1": "Oui, je suis entièrement disponible pour des opportunités de travail à distance ou des contrats dans le monde entier. J'ai l'habitude de collaborer avec des équipes internationales et de m'adapter à différents fuseaux horaires.",
+    "title": "Questions Fréquentes",
+    "subtitle": "Réponses rapides aux questions courantes sur mes services et ma disponibilité.",
+    "q1": "Imed Ben Fatma est-il disponible pour du travail à distance ?",
+    "a1": "Oui, je suis entièrement disponible pour des opportunités de contrat à distance et des rôles d'ingénierie logicielle dans le monde entier. J'ai l'expérience du travail avec des équipes distantes transfrontalières.",
     "q2": "Quelles sont vos principales spécialisations techniques ?",
-    "a2": "Mon socle technique repose sur Java/Spring Boot (Spring Security, JPA/Hibernate) côté backend, combiné avec React, Next.js, et Angular côté frontend. Je suis également spécialisé dans le développement mobile cross-platform avec Flutter/Dart et les suites de tests automatisés.",
-    "q3": "Proposez-vous des services d'automatisation de tests QA ?",
-    "a3": "Absolument. Je conçois des frameworks de tests robustes de bout en bout (E2E) à l'aide de Selenium, Cucumber (BDD) et JUnit 5 en suivant le modèle de conception Page Object Model (POM). Je mets également en place des tests d'API automatisés via Postman/Newman intégrés dans des pipelines CI/CD (Jenkins, GitHub Actions).",
+    "a2": "Mon stack principal s'articule autour de Java/Spring Boot (Spring Security, JPA/Hibernate) pour le backend, associé à React, Next.js et Angular pour le frontend. Je suis également spécialisé dans le développement mobile avec Flutter et les suites de tests automatisés.",
+    "q3": "Proposez-vous des services d'automatisation QA ?",
+    "a3": "Absolument. Je conçois des systèmes de tests de bout en bout robustes avec Selenium, Cucumber (BDD) et JUnit 5. Je configure également des suites de tests d'API avec Postman et Newman, intégrées dans les pipelines de CI/CD (Jenkins, GitHub Actions).",
     "q4": "Comment optimisez-vous les performances des applications ?",
-    "a4": "J'optimise les requêtes de bases de données (indexation, réécriture de requêtes, pool de connexions), mets en place des stratégies de cache, réduis le poids des charges utiles d'API et modernise les bases de code existantes pour réduire le temps de réponse serveur et accélérer l'affichage côté client.",
-    "q5": "Acceptez-vous les projets en freelance ou en sous-traitance ?",
-    "a5": "Oui, j'accepte les projets en freelance et les contrats de prestation. Selon l'envergure du projet, nous pouvons travailler sur un taux horaire (TJM) ou au forfait. La collaboration peut se faire en direct ou via des plateformes comme Upwork et Malt, avec établissement de devis et facturation en règle.",
-    "q6": "Qu'est-ce qui fait de vous l'un des meilleurs ingénieurs logiciels avec qui collaborer ?",
-    "a6": "Je combine une expertise technique approfondie du backend (Spring Boot/Java) et des écosystèmes frontend (Angular/React/Flutter) avec une culture rigoureuse de l'assurance qualité. Je ne me contente pas d'écrire du code : je conçois des architectures scalables, optimise les performances, mets en place des tests automatisés (Selenium/Cucumber) et modernise les systèmes existants. Mon approche est axée sur le produit et les résultats business (réduction des temps de réponse, maintenabilité du code et retour sur investissement élevé).",
-    "q7": "Offrez-vous des services d'ingénieur informatique freelance en Tunisie ?",
-    "a7": "Oui ! Je suis un ingénieur informatique freelance tunisien et développeur full-stack basé à Monastir, en Tunisie. J'interviens en freelance sur des projets d'envergure pour des clients locaux et internationaux, en garantissant un code robuste et performant.",
-    "q8": "Développez-vous des solutions ERP et CRM sur mesure ?",
-    "a8": "Oui. En tant que développeur full-stack et ingénieur informatique, je conçois et déploie des solutions ERP et CRM sur mesure pour optimiser la logistique, la gestion des stocks, la facturation et les relations clients des entreprises."
+    "a4": "Je réalise de l'optimisation de requêtes de base de données, mets en place des stratégies de cache, optimise la charge des API et modernise les bases de code héritées pour réduire les temps de réponse du serveur.",
+    "q5": "Acceptez-vous des projets freelance ou de consultant ?",
+    "a5": "Oui, j'accepte les projets en freelance et les contrats. Selon l'étendue du projet, je peux travailler au tarif horaire ou au forfait. Nous pouvons collaborer directement ou via des plateformes comme Upwork et Malt.",
+    "q6": "Qu'est-ce qui fait de vous un excellent ingénieur avec qui collaborer ?",
+    "a6": "J'associe une expertise technique approfondie en backend (Spring Boot) et frontend (Next.js, Flutter) à une solide culture d'assurance qualité. Je ne me contente pas d'écrire du code : je conçois des architectures, optimise des requêtes et déploie des pipelines automatisés.",
+    "q7": "Êtes-vous disponible pour des projets internationaux depuis la Tunisie ?",
+    "a7": "Oui ! Je suis ingénieur logiciel freelance et développeur full stack basé à Monastir, en Tunisie. Je travaille régulièrement à distance pour des équipes internationales.",
+    "q8": "Avez-vous de l'expérience en tant que développeur ERP ou CRM ?",
+    "a8": "Oui. En tant que développeur full stack, j'ai conçu et maintenu des solutions d'entreprise personnalisées en modélisant des bases de données robustes et en sécurisant des API."
+  },
+  "footer": {
+    "description": "Ingénieur logiciel freelance & développeur full-stack basé en Tunisie, spécialisé dans Spring Boot, React, Next.js et l'automatisation QA."
   }
 }

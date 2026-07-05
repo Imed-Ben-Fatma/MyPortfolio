@@ -16,6 +16,7 @@ import {
 import { getDictionary } from '@/dictionaries/get-dictionary';
 import profilePic from '@/../public/profile.png';
 import ProfileImage from '@/components/profile-image';
+import { ContactForm } from '@/components/contact-form';
 
 interface PageProps {
   params: Promise<{ lang: string }>;
@@ -90,7 +91,7 @@ export default async function Page({ params }: PageProps) {
             {/* ATS-friendly CV Download button */}
             <a
               href={lang === 'en' ? '/resume-en.pdf' : '/resume-fr.pdf'}
-              download
+              download="CV Imed Ben Fatma.pdf"
               className="inline-flex items-center justify-center rounded-xl border border-border bg-card px-6 py-3 text-sm font-semibold text-foreground hover:bg-muted transition-all duration-200"
             >
               <Download className="mr-2 h-4 w-4" />
@@ -182,98 +183,38 @@ export default async function Page({ params }: PageProps) {
 
         {/* Timeline Layout */}
         <div className="relative border-l border-border/80 ml-4 md:ml-6 pl-6 sm:pl-8 space-y-12">
-          {/* Timeline Node 1: Apeiron AI */}
-          <div className="relative">
-            {/* Point node */}
-            <span className="absolute -left-[31px] sm:-left-[39px] top-1.5 flex h-4 w-4 items-center justify-center rounded-full bg-background border border-foreground/60 shadow">
-              <span className="h-1.5 w-1.5 rounded-full bg-foreground"></span>
-            </span>
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
-              <div className="md:col-span-3">
-                <span className="text-xs font-semibold text-muted-foreground block tracking-wider uppercase">
-                  {dict.experience.roles.apeiron_ai.duration}
-                </span>
-                <span className="text-sm font-light text-foreground block mt-1">
-                  {dict.experience.roles.apeiron_ai.company}
-                </span>
-                <span className="text-xs font-light text-muted-foreground flex items-center mt-1">
-                  <MapPin className="h-3 w-3 mr-1" />
-                  {dict.experience.roles.apeiron_ai.location}
-                </span>
-              </div>
-              <div className="md:col-span-9 space-y-3">
-                <h3 className="text-lg font-bold text-foreground">
-                  {dict.experience.roles.apeiron_ai.role}
-                </h3>
-                <ul className="space-y-2 text-sm font-light text-muted-foreground leading-relaxed list-disc list-outside pl-4">
-                  <li>{dict.experience.roles.apeiron_ai.bullet1}</li>
-                  <li>{dict.experience.roles.apeiron_ai.bullet2}</li>
-                  <li>{dict.experience.roles.apeiron_ai.bullet3}</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* Timeline Node 2: Apeiron Technologies */}
-          <div className="relative">
-            {/* Point node */}
-            <span className="absolute -left-[31px] sm:-left-[39px] top-1.5 flex h-4 w-4 items-center justify-center rounded-full bg-background border border-border/80 shadow">
-              <span className="h-1.5 w-1.5 rounded-full bg-border"></span>
-            </span>
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
-              <div className="md:col-span-3">
-                <span className="text-xs font-semibold text-muted-foreground block tracking-wider uppercase">
-                  {dict.experience.roles.apeiron_tech.duration}
-                </span>
-                <span className="text-sm font-light text-foreground block mt-1">
-                  {dict.experience.roles.apeiron_tech.company}
-                </span>
-                <span className="text-xs font-light text-muted-foreground flex items-center mt-1">
-                  <MapPin className="h-3 w-3 mr-1" />
-                  {dict.experience.roles.apeiron_tech.location}
-                </span>
-              </div>
-              <div className="md:col-span-9 space-y-3">
-                <h3 className="text-lg font-bold text-foreground">
-                  {dict.experience.roles.apeiron_tech.role}
-                </h3>
-                <ul className="space-y-2 text-sm font-light text-muted-foreground leading-relaxed list-disc list-outside pl-4">
-                  <li>{dict.experience.roles.apeiron_tech.bullet1}</li>
-                  <li>{dict.experience.roles.apeiron_tech.bullet2}</li>
-                </ul>
+          {Object.entries(dict.experience.roles).map(([key, role], index) => (
+            <div key={key} className="relative">
+              {/* Point node */}
+              <span className={`absolute -left-[31px] sm:-left-[39px] top-1.5 flex h-4 w-4 items-center justify-center rounded-full bg-background border ${index === 0 ? 'border-foreground/60 shadow' : 'border-border/80 shadow-none'}`}>
+                <span className={`h-1.5 w-1.5 rounded-full ${index === 0 ? 'bg-foreground' : 'bg-border'}`}></span>
+              </span>
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
+                <div className="md:col-span-3">
+                  <span className="text-xs font-semibold text-muted-foreground block tracking-wider uppercase">
+                    {role.duration}
+                  </span>
+                  <span className="text-sm font-light text-foreground block mt-1">
+                    {role.company}
+                  </span>
+                  <span className="text-xs font-light text-muted-foreground flex items-center mt-1">
+                    <MapPin className="h-3 w-3 mr-1" />
+                    {role.location}
+                  </span>
+                </div>
+                <div className="md:col-span-9 space-y-3">
+                  <h3 className="text-lg font-bold text-foreground">
+                    {role.role}
+                  </h3>
+                  <ul className="space-y-2 text-sm font-light text-muted-foreground leading-relaxed list-disc list-outside pl-4">
+                    {role.bullets.map((bullet, idx) => (
+                      <li key={idx}>{bullet}</li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
-
-          {/* Timeline Node 3: Terraform Tunisia */}
-          <div className="relative">
-            {/* Point node */}
-            <span className="absolute -left-[31px] sm:-left-[39px] top-1.5 flex h-4 w-4 items-center justify-center rounded-full bg-background border border-border/80 shadow">
-              <span className="h-1.5 w-1.5 rounded-full bg-border"></span>
-            </span>
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
-              <div className="md:col-span-3">
-                <span className="text-xs font-semibold text-muted-foreground block tracking-wider uppercase">
-                  {dict.experience.roles.terraform.duration}
-                </span>
-                <span className="text-sm font-light text-foreground block mt-1">
-                  {dict.experience.roles.terraform.company}
-                </span>
-                <span className="text-xs font-light text-muted-foreground flex items-center mt-1">
-                  <MapPin className="h-3 w-3 mr-1" />
-                  {dict.experience.roles.terraform.location}
-                </span>
-              </div>
-              <div className="md:col-span-9 space-y-3">
-                <h3 className="text-lg font-bold text-foreground">
-                  {dict.experience.roles.terraform.role}
-                </h3>
-                <ul className="space-y-2 text-sm font-light text-muted-foreground leading-relaxed list-disc list-outside pl-4">
-                  <li>{dict.experience.roles.terraform.bullet1}</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </section>
 
@@ -796,49 +737,7 @@ export default async function Page({ params }: PageProps) {
             </div>
           </div>
 
-          <form className="lg:col-span-7 space-y-4">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="space-y-2">
-                <label htmlFor="name" className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
-                  {dict.contact.form_name}
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  required
-                  className="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-foreground focus:outline-none focus:ring-1 focus:ring-ring"
-                />
-              </div>
-              <div className="space-y-2">
-                <label htmlFor="email" className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
-                  {dict.contact.form_email}
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  required
-                  className="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-foreground focus:outline-none focus:ring-1 focus:ring-ring"
-                />
-              </div>
-            </div>
-            <div className="space-y-2">
-              <label htmlFor="message" className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
-                {dict.contact.form_message}
-              </label>
-              <textarea
-                id="message"
-                required
-                rows={4}
-                className="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-foreground focus:outline-none focus:ring-1 focus:ring-ring resize-none"
-              />
-            </div>
-            <button
-              type="submit"
-              className="w-full sm:w-auto inline-flex items-center justify-center rounded-xl bg-primary px-8 py-3 text-sm font-semibold text-primary-foreground shadow hover:opacity-90 transition duration-200"
-            >
-              {dict.contact.form_submit}
-            </button>
-          </form>
+          <ContactForm dict={dict.contact} />
         </div>
       </section>
     </div>

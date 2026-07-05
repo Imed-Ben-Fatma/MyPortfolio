@@ -1,0 +1,158 @@
+\documentclass[11pt, a4paper]{article}
+
+% --- PACKAGES DE BASE ---
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+
+% --- CONFIGURATION DES POLICES ---
+\usepackage{fontspec}
+\usepackage[english]{babel}
+
+% Utilisation de Noto Sans pour tout le document
+\babelfont{rm}{Noto Sans}
+
+% --- GESTION DES LISTES ---
+\setlist[itemize]{label=-}
+
+% --- COULEURS ET MARGES ---
+\definecolor{light-grey}{gray}{0.85}
+\definecolor{dark-grey}{gray}{0.3}
+\definecolor{text-grey}{gray}{0.15}
+\definecolor{primary-blue}{RGB}{0, 74, 147}
+
+\usepackage[top=1.0cm, bottom=1.0cm, left=1.2cm, right=1.2cm]{geometry}
+\usepackage[hidelinks]{hyperref} % Loaded last as per guidelines
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% --- FORMATAGE DES SECTIONS ---
+\titleformat{\section}{
+  \bfseries \vspace{-2pt} \raggedright \large \color{primary-blue}
+}{}{0em}{}[\color{light-grey} {\titlerule[1.5pt]} \vspace{-2pt}]
+
+% --- COMMANDES PERSONNALISÉES ---
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & {\color{dark-grey}\small #2}\vspace{1pt}\\
+      \textit{\small #3} & {\color{dark-grey} \small #4}\\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{2pt}}
+
+\color{text-grey}
+
+%-------------------------------------------
+%%%%%%  DÉBUT DU CV  %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------EN-TÊTE----------
+\begin{center}
+    \textbf{\Huge Ben Fatma Imed} \\ \vspace{6pt}
+    \large \textbf{Software Engineer | Java \& Next.js Developer} \\ \vspace{8pt}
+    \small 
+    Monastir, Tunisia $|$ 
+    +216 51 198 800 $|$ 
+    \href{mailto:imad.benfatma98@gmail.com}{imad.benfatma98@gmail.com} $|$ 
+    \href{https://linkedin.com/in/imed-ben-fatma}{linkedin.com/in/imed-ben-fatma} 
+\end{center}
+
+%-----------RÉSUMÉ-----------
+\section{PROFESSIONAL SUMMARY}
+  \vspace{4pt}
+  \small{Results-driven Software Engineer specializing in Java/Spring Boot and Next.js. Experienced in designing scalable web applications and utilizing AI-assisted tools to optimize performance and accelerate delivery in collaborative, distributed teams.}
+
+%-----------EXPÉRIENCE-----------
+\section{PROFESSIONAL EXPERIENCE}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Apeiron AI}{Aug. 2025 -- Present}
+      {Software Engineer}{Sousse, Tunisia}
+      \resumeItemListStart
+        \resumeItem{Designed and integrated semantic analysis systems utilizing Large Language Models (\textbf{LLMs}).}
+        \resumeItem{Architected and developed complex software solutions focused on scaling data and smart mobility pipelines.}
+        \resumeItem{Digitized and optimized business processes via custom Next.js and backend integrations.}
+        \resumeItem{Analyzed system performances and optimized database structures, achieving a \textbf{20\%} API latency reduction.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Apeiron Technologies}{Feb. 2025 -- May 2025}
+      {Software Engineer Intern}{Sousse, Tunisia}
+      \resumeItemListStart
+        \resumeItem{Analyzed and designed secure, production-ready backend architectures utilizing \textbf{Spring Boot}.}
+        \resumeItem{Implemented relational database structures and built highly performant RESTful APIs.}
+        \resumeItem{Leveraged AI-assisted programming tools to streamline clean code generation and optimize development lifecycles.}
+        \resumeItem{Authored comprehensive technical documentation and system architecture specifications.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Com-and-Dev}{June 2024 -- July 2024}
+      {Software Developer Intern}{Sousse, Tunisia}
+      \resumeItemListStart
+        \resumeItem{Designed and developed a multi-user, full-stack business management application.}
+        \resumeItem{Engineered robust, decoupled APIs to support seamless frontend-backend data flows.}
+        \resumeItem{Created highly responsive UI layouts using modern web framework standards.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Terraform Tunisia}{Feb. 2024 -- Apr. 2024}
+      {Software Engineer Intern}{Sousse, Tunisia}
+      \resumeItemListStart
+        \resumeItem{Gathered user requirements and developed a centralized platform utilizing \textbf{Next.js} and \textbf{Spring Boot}.}
+        \resumeItem{Modeled and optimized highly performant relational database schemas under \textbf{PostgreSQL}.}
+        \resumeItem{Participated in collaborative technical reviews to ensure codebase scalability and clean code quality.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------FORMATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {EPI Digital School}{2022 -- 2025}
+      {National Engineering Degree in Computer Science}{Sousse, Tunisia}
+    \resumeSubheading
+      {ISET Kairouan}{2019 -- 2022}
+      {Bachelor’s Degree in Automation and Industrial Computing}{Kairouan, Tunisia}
+  \resumeSubHeadingListEnd
+
+ %-----------COMPÉTENCES-----------
+\section{TECHNICAL SKILLS \& ENGINEERING}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Software Engineering} {: OOP, Design Patterns, Software Architecture, Clean Code, SOLID Principles} \\ \vspace{2pt}
+     \textbf{Languages \& Frameworks} {: Java, Python, TypeScript, Spring Boot, Next.js, React, Angular, Linux} \\ \vspace{2pt}
+     \textbf{Databases \& Infrastructure} {: PostgreSQL, MySQL, SQL Server, Docker, Jenkins, Git, UML Modeling, CI/CD} \\ \vspace{2pt}
+     \textbf{Methodologies \& Tools} {: Agile, Scrum, Requirements Analysis, AI Development Assistants (GitHub Copilot, LLMs)}
+    }}
+ \end{itemize}
+
+%-----------LANGUAGES-----------
+\section{LANGUAGES}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Arabic}: Native \quad $|$ \quad \textbf{English}: Professional Proficiency \quad $|$ \quad \textbf{French}: Fluent
+    }}
+ \end{itemize}
+
+\end{document}

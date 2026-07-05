@@ -52,26 +52,48 @@
       "apeiron_ai": {
         "role": "Software Engineer",
         "company": "Apeiron AI",
-        "duration": "Aug 2025 - Present",
+        "duration": "Aug. 2025 - Present",
         "location": "Sousse, Tunisia",
-        "bullet1": "Engineered an intelligent mobility platform centralizing vehicle and fleet management using Spring Boot, Angular, and Flutter.",
-        "bullet2": "Spearheaded the digitalization of a pharmaceutical supply chain partner, designing a trade-marketing loyalty engine (Backend Java, Next.js, Flutter).",
-        "bullet3": "Product Innovation: Successfully integrated Generative AI (LLMs) modules for automated CV-to-job parsing and compatibility analysis."
+        "bullets": [
+          "Designed and integrated semantic analysis systems utilizing Large Language Models (LLMs).",
+          "Architected and developed complex software solutions focused on scaling data and smart mobility pipelines.",
+          "Digitized and optimized business processes via custom Next.js and backend integrations.",
+          "Analyzed system performances and optimized database structures, achieving a 20% API latency reduction."
+        ]
       },
       "apeiron_tech": {
-        "role": "Full-Stack Developer",
+        "role": "Software Engineer Intern",
         "company": "Apeiron Technologies",
-        "duration": "Feb 2025 - May 2025",
+        "duration": "Feb. 2025 - May 2025",
         "location": "Sousse, Tunisia",
-        "bullet1": "Conceptualized secure SaaS infrastructure with Spring Security, managing complex persistence architectures with JPA/Hibernate on MySQL databases.",
-        "bullet2": "Automated unit and integration testing workflows within Jenkins CI/CD pipelines to guarantee software stability."
+        "bullets": [
+          "Analyzed and designed secure, production-ready backend architectures utilizing Spring Boot.",
+          "Implemented relational database structures and built highly performant RESTful APIs.",
+          "Leveraged AI-assisted programming tools to streamline clean code generation and optimize development lifecycles.",
+          "Authored comprehensive technical documentation and system architecture specifications."
+        ]
+      },
+      "com_and_dev": {
+        "role": "Software Developer Intern",
+        "company": "Com-and-Dev",
+        "duration": "June 2024 - July 2024",
+        "location": "Sousse, Tunisia",
+        "bullets": [
+          "Designed and developed a multi-user, full-stack business management application.",
+          "Engineered robust, decoupled APIs to support seamless frontend-backend data flows.",
+          "Created highly responsive UI layouts using modern web framework standards."
+        ]
       },
       "terraform": {
-        "role": "Full-Stack Developer",
+        "role": "Software Engineer Intern",
         "company": "Terraform Tunisia",
-        "duration": "Dec 2024",
+        "duration": "Feb. 2024 - Apr. 2024",
         "location": "Sousse, Tunisia",
-        "bullet1": "Built an educational SaaS/daycare management platform utilizing Spring Boot and React over a complex PostgreSQL relational database structure."
+        "bullets": [
+          "Gathered user requirements and developed a centralized platform utilizing Next.js and Spring Boot.",
+          "Modeled and optimized highly performant relational database schemas under PostgreSQL.",
+          "Participated in collaborative technical reviews to ensure codebase scalability and clean code quality."
+        ]
       }
     }
   },
@@ -108,13 +130,13 @@
     "subtitle": "Academic milestones and engineering qualifications.",
     "items": {
       "epi": {
-        "degree": "National Diploma in Computer Engineering",
+        "degree": "National Engineering Degree in Computer Science",
         "school": "EPI Digital School",
         "duration": "2022 - 2025",
         "location": "Sousse, Tunisia"
       },
       "iset": {
-        "degree": "Bachelor's Degree in Automation and Industrial IT",
+        "degree": "Bachelor's Degree in Automation and Industrial Computing",
         "school": "ISET Kairouan",
         "duration": "2019 - 2022",
         "location": "Kairouan, Tunisia"
@@ -165,5 +187,8 @@
     "a7": "Yes! I am a Tunisian freelance software engineer and full stack developer based in Monastir, Tunisia. I work as an Arabic software engineer freelance for global teams, providing high-quality software engineering, computer engineering, and QA automation services remotely.",
     "q8": "Do you have experience as an ERP developer or CRM developer?",
     "a8": "Yes. As a full stack developer and computer engineer, I have built and maintained custom enterprise solutions, acting as an ERP developer and CRM developer. I engineer robust database structures, secure APIs, and responsive management dashboards."
+  },
+  "footer": {
+    "description": "Freelance Software Engineer & Full-Stack Developer based in Tunisia, specializing in Spring Boot, React, Next.js, and automated QA testing."
   }
 }

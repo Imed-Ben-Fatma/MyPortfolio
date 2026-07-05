@@ -21,9 +21,7 @@ export function Footer({ lang, dict }: FooterProps) {
               Imed Ben Fatma
             </span>
             <p className="mt-3 text-sm text-muted-foreground max-w-xs leading-relaxed">
-              {lang === 'en' 
-                ? 'Architecting elegant full-stack solutions and robust automated testing systems from Tunisia.' 
-                : 'Concepteur de solutions full-stack élégantes et de systèmes de tests automatisés robustes depuis la Tunisie.'}
+              {dict.footer.description}
             </p>
           </div>
 
